@@ -76,11 +76,11 @@ Your journey will take you through the wildness of the American Midwest and acro
 ```
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > Your answer here : drovers is being declared as the output of hireDrovers using cattle to drive as an input  
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   > Your answer here drovers is the has the value of the whole array and drover is the value of each object of the array.
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+   > Your public Loom URL here : https://www.loom.com/share/f76510e994034d85943618eb2ffa3af4
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -88,11 +88,15 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > Your answer here : setting forestNumber to the value of 0, the for loop iterates until river number is = or > forest in areas; each iteration adds 1 to riverNumber
+   each iteration push the string forest to the journey array.
+
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   > Your answer here : The database is a variable with the value of 2 different arrays (cattle & drovers) that have objects that represent each of the named arrays 
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   > Your answer here: herdSize is the is the parameter that is put in when calling the function it gets its value when the function is called
+
+https://sequencediagram.org/index.html#initialData=C4S2BsFMAICEFcDm0BKBDAdgYwBYCg8AHNAJ1CxGI2GgBM1g0AjNAZ0gOLJAqpqwYQORUuUqYatEgHsAbpBIjuvCdHihwrJWL7QAVtPgkMkAJ7ae46tAC2aEBgJ51ITQFoAfAaMnTALgAFGVkQWhgSTFppG1ZoADNpEn1DYzMAHUd6RhZ2Tyk5BT8stHjEumCFVgy8AWAhAB43YpzIIoYShKTgHBhaoWq+qE87B0Dg0MhYsAUGSFpoUgjTaGk46EGYboZoAHdXcGgmGAdobpgeklo8fPkSYfsMP0JxsIWSJZW1m8rTnG298AHI7lEAhDDIM7QC60areVKme6jZ5yCaxSFw3y-f77Q6bNAAa0gGFO0lxdBArEI4DQpjm0CAA
 
 ## When You Are Done
 

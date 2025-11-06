@@ -1,4 +1,4 @@
-const database = {
+export const database = {
     cattleTypes: [
         {
             id: 1,
@@ -272,4 +272,3 @@ const database = {
 
 
 
-module.exports = { database }
